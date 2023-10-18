@@ -127,7 +127,10 @@ iwconfig
 #  1. Kill all background process to do it (it dissconnect ur network so don't get panic) :
 ```bash
 airmon-ng check kill
-``` 
+```
+![Screenshot 2023-10-17 221157](https://github.com/Esther7171/web-development/assets/122229257/1865dd19-d01a-47b3-b7f9-74f6d9750af2)
+
+
 * wlan0 => interface name .
 * WIFI@REALTEK => Is wlan0 nickname u can use both but reccommended wlan0.
 * if u have already connected to wifi sometime it show wlan1 or wlan2 rather than wlna0 (in case u have 2 adpater 1 for wifi and second to attack)
@@ -153,7 +156,6 @@ iwconfig
 ```bash
 airmon-ng start wlan0   
 ``` 
-![Screenshot 2023-10-17 221157](https://github.com/Esther7171/web-development/assets/122229257/1865dd19-d01a-47b3-b7f9-74f6d9750af2)
 
 # step 2. Check for nearby network
 ## to check use :
