@@ -149,7 +149,7 @@ iwconfig
 ``` 
 ![Screenshot 2023-10-17 221254](https://github.com/Esther7171/web-development/assets/122229257/f754b3a2-9844-463b-8896-0b5ba3c05d3d)
 
-# 2. Or not doing all this time wast u can do Directly this Monitor mode by usning  😁 :
+# 2. Or not doing all this time wast u can do Directly this Monitor mode by using  😁 :
 ```bash
 airmon-ng start wlan0   
 ``` 
