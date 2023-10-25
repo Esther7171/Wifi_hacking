@@ -12,7 +12,7 @@ Go to you download dir where it is install
 ## Extract it
 extract it manual or use :
 ```bash
-  tar -xjvf compact-wireless-2010–06–26-p.tar.bz2
+  tar -xjvf compat-wireless-2010-06-28.tar.bz2 
 ```
 go inside the dir of compact-wireless
 ```bash
