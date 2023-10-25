@@ -16,7 +16,7 @@ extract it manual or use :
 ```
 go inside the dir of compact-wireless
 ```bash
-cd compat-wireless-2010–06–26-p
+cd compat-wireless-2010-06-28/
 ```
 Run both the commands  :
 ```bash
