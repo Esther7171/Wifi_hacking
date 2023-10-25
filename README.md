@@ -7,7 +7,7 @@ Download Driver tar file from above on your system
 Go to you download dir where it is install 
 
 ```bash
-  cd Download
+  cd Downloads
 ```
 ## Extract it
 extract it manual or use :
