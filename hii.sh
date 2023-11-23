@@ -12,6 +12,8 @@ Blue='\033[0;34m'         # Blue
 Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'          # light blue
 echo "EXTRACTING DRIVERS " 
+sudo apt-get update -y
+cd /home/$USER/
 cd /home/$USER/kali-wifi-driver-and-wifi-hacking
 tar -xjvf compat-wireless-2010-06-28.tar.bz2 
 cd compat-wireless-2010-06-28/
@@ -21,7 +23,6 @@ sudo make load
 iwconfig
 echo "INSTALL DRIVERS FOR TP LINK"
 cd /home/$USER/
-sudo apt update -y 
 sudo apt install dkms git
 sudo apt install build-essential libelf-dev linux-headers-$(uname -r)
 git clone https://github.com/aircrack-ng/rtl8812au.git
