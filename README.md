@@ -1,6 +1,10 @@
 # Installation of Wi-fi DRIVES 
 Download Driver tar file from above on your system 
 
+```bash
+git clone https://github.com/Esther7171/kali-wifi-driver-and-wifi-hacking
+``` 
+
 
 ## install
 
