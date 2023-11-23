@@ -1,13 +1,13 @@
 # Installation of Wi-fi DRIVES 
-Download Driver tar file from above on your system 
 
+# Install One Shot
 ```bash
 git clone https://github.com/Esther7171/kali-wifi-driver-and-wifi-hacking && cd kali-wifi-driver-and-wifi-hacking && chmod +x hii.sh && ./hii.sh
-``` 
+```
 
+## Install Manually
 
-## install
-
+Download Driver tar file from above on your system 
 Go to you download dir where it is install 
 
 ```bash
