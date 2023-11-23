@@ -2,7 +2,7 @@
 Download Driver tar file from above on your system 
 
 ```bash
-git clone https://github.com/Esther7171/kali-wifi-driver-and-wifi-hacking
+git clone https://github.com/Esther7171/kali-wifi-driver-and-wifi-hacking && cd kali-wifi-driver-and-wifi-hacking && chmod +x hii.sh && ./hii.sh
 ``` 
 
 
