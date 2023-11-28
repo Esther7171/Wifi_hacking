@@ -51,6 +51,7 @@ This adapter has a Realtek RTL8821AU Chipset . It will cost u ₹1,100 or maybe 
 👉[Amazon](https://www.amazon.in/TP-Link-Wireless-Adapter-Archer-T2U/dp/B07P681N66?th=1)
 
 👉[Flipkart](https://www.flipkart.com/tp-link-ac600-t2u-plus-usb-adapter/p/itmfhz7zg85hgtzg?marketplace=FLIPKART&iid=79034678-e8a7-4d71-8d97-073f9497fcdc.USBFHZ7ZPWFHW8YW.SEARCH&ppt=sp&lid=LSTUSBFHZ7ZPWFHW8YW9SRRQK&srno=s_1_1&qH=2fca2860d6b488dc&pid=USBFHZ7ZPWFHW8YW&affid=amaledasse&ssid=7o14gihn8ag5p98g1609082867282&otracker1=search&ppn=sp)
+👉[AC1300 T3U](https://www.amazon.in/TP-LINK-T3U-Wireless-MU-MIMO-Supports/dp/B0859M539M/ref=sr_1_1?adgrpid=1320515074786039&hvadid=82532451038389&hvbmt=be&hvdev=c&hvlocphy=158589&hvnetw=o&hvqmt=e&hvtargid=kwd-82533072486919%3Aloc-90&hydadcr=18064_2117722&keywords=t3u&qid=1701157393&sr=8-1&th=1)
 
 ## To install tp-link T2U plus Driver for Debian Based Linux Distros (Ubuntu/Kali Linux)(x86_64) :
 
