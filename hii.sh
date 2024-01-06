@@ -12,4 +12,5 @@ git clone https://github.com/aircrack-ng/rtl8812au.git
 cd rtl88*
 sudo make dkms_install
 lsusb
+rm -rf kali-wifi* rtl88*
 init 6
