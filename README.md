@@ -3,7 +3,7 @@
 # Install One Shot
 ## Copy and past on your's Kali Terminal 🙂
 ```bash
-git clone https://github.com/Esther7171/kali-wifi-driver-and-wifi-hacking && cd kali-wifi-driver-and-wifi-hacking && chmod +x hii.sh && ./hii.sh
+git clone https://github.com/Esther7171/Wifi_hacking.git && cd kali-wifi-driver-and-wifi-hacking && chmod +x hii.sh && ./hii.sh
 ```
 
 ## Install Manually
