@@ -6,10 +6,14 @@ sudo make unload
 sudo make load 
 sudo apt update -y 
 cd /home/$USER/
-sudo apt install dkms git
-sudo apt install build-essential libelf-dev linux-headers-$(uname -r)
+sudo apt install dkms git -y
+sudo apt install build-essential libelf-dev linux-headers-$(uname -r) -y
 git clone https://github.com/aircrack-ng/rtl8812au.git
 cd rtl88*
-sudo make dkms_install
+sudo make dkms_install -y
 lsusb
+echo -e "\033[1;31m All Done\033[0m"
+sleep 1s
+echo -e "\033[1;31m Restarting Your system \033[0
+sleep 1s
 init 6
