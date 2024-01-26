@@ -3,7 +3,7 @@
 # Install One Shot
 ## Copy and past on your's Kali Terminal 🙂
 ```bash
-git clone https://github.com/Esther7171/Wifi_hacking.git && cd Wifi_hacking && chmod +x hii.sh && ./hii.sh
+git clone https://github.com/Esther7171/Wifi_hacking.git && cd Wifi_hacking && chmod +x install.sh && ./hii.sh
 ```
 
 ## Install Manually
