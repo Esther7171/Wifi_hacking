@@ -14,6 +14,6 @@ sudo make dkms_install -y
 lsusb
 echo -e "\033[1;31m All Done\033[0m"
 echo ""
-echo -e "\033[1;31m Restarting Your system \033[0
+echo -e "\033[1;31m Restarting Your system \033[0m"
 sleep 1s
 init 6
