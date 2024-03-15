@@ -8,6 +8,7 @@ sudo apt update -y
 cd /home/$USER/
 sudo apt install dkms git -y
 sudo apt install build-essential libelf-dev linux-headers-$(uname -r) -y
+sudo apt install -y linux-headers*
 git clone https://github.com/aircrack-ng/rtl8812au.git
 cd rtl88*
 sudo make dkms_install -y
